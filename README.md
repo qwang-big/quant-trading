@@ -1,6 +1,6 @@
 # Quant-trading
 
-<br>
+&nbsp;
 
 ## Intro
 
@@ -20,45 +20,62 @@ Most scripts inside this repository are technical indicator automated trading. T
 
 ### Table of Contents
 
-1. <a href=https://github.com/je-suis-tm/quant-trading#1-macd-oscillator>MACD oscillator</a>
+&nbsp;
 
-2. <a href=https://github.com/je-suis-tm/quant-trading#2-pair-trading>Pair trading</a>
+#### Options Strategy
 
-3. <a href=https://github.com/je-suis-tm/quant-trading#3-heikin-ashi-candlestick>Heikin-Ashi candlestick</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#12options-straddle>Options Straddle</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#15-vix-calculator>VIX Calculator</a>
 
-4. <a href=https://github.com/je-suis-tm/quant-trading#4-london-breakout>London Breakout</a>
+&nbsp;
 
-5. <a href=https://github.com/je-suis-tm/quant-trading#5awesome-oscillator>Awesome oscillator</a>
+#### Quantamental Analysis
 
-6. <a href=https://github.com/je-suis-tm/quant-trading#6oil-money-project>Oil Money project</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#11monte-carlo-project>Monte Carlo Project</a>
 
-7. <a href=https://github.com/je-suis-tm/quant-trading#7dual-thrust>Dual Thrust</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#6oil-money-project>Oil Money Project</a>
 
-8. <a href=https://github.com/je-suis-tm/quant-trading#8parabolic-sar>Parabolic SAR</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#2-pair-trading>Pair Trading</a> 
 
-9. <a href=https://github.com/je-suis-tm/quant-trading#9bollinger-bands-pattern-recognition>Bollinger Bands Pattern Recognition</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#13portfolio-optimization-project>Portfolio Optimization Project</a>
 
-10. <a href=https://github.com/je-suis-tm/quant-trading#10-relative-strength-index-pattern-recognition>Relative Strength Index Pattern Recognition</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#14smart-farmers-project>Smart Farmers Project</a>
 
-11. <a href=https://github.com/je-suis-tm/quant-trading#11monte-carlo-project>Monte Carlo project</a>
+&nbsp;
 
-12. <a href=https://github.com/je-suis-tm/quant-trading#12options-straddle>Options Straddle</a>
+#### Technical Indicators
 
-13. <a href=https://github.com/je-suis-tm/quant-trading#13portfolio-optimization-project>Portfolio Optimization project</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#5awesome-oscillator>Awesome Oscillator</a> 
 
-14. <a href=https://github.com/je-suis-tm/quant-trading#14smart-farmers-project>Smart Farmers project</a>
+* <a href=https://github.com/je-suis-tm/quant-trading#9bollinger-bands-pattern-recognition>Bollinger Bands Pattern Recognition</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#7dual-thrust>Dual Thrust</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#3-heikin-ashi-candlestick>Heikin-Ashi Candlestick</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#4-london-breakout>London Breakout</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#1-macd-oscillator>MACD Oscillator</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#8parabolic-sar>Parabolic SAR</a> 
+
+* <a href=https://github.com/je-suis-tm/quant-trading#10-relative-strength-index-pattern-recognition>Relative Strength Index Pattern Recognition</a>
+
+&nbsp;
 
 ### Data Source
 
-1. <a href=https://finance.yahoo.com>Yahoo Finance</a>/<a href=https://pypi.org/project/fix-yahoo-finance>fix_yahoo_finance package</a>
+* Bloomberg/Eikon
 
-2. Bloomberg/Eikon
+* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CME3.py>CME</a>/<a href=https://github.com/je-suis-tm/web-scraping/blob/master/LME.py>LME</a>
 
-3. <a href=https://www.histdata.com/>Histdata</a>/<a href=https://fxhistoricaldata.com>FX Historical Data</a>
+* <a href=https://www.histdata.com/>Histdata</a>/<a href=https://fxhistoricaldata.com>FX Historical Data</a>
 
-4. <a href=https://stooq.com>Stooq</a>/<a href=https://www.quandl.com>Quandl</a>
+* <a href=https://stooq.com>Stooq</a>/<a href=https://www.quandl.com>Quandl</a>
 
-5. <a href=https://github.com/je-suis-tm/web-scraping>Web Scraping</a>
+* <a href=https://github.com/je-suis-tm/web-scraping>Web Scraping</a>
+
+* <a href=https://finance.yahoo.com>Yahoo Finance</a>/<a href=https://pypi.org/project/fix-yahoo-finance>fix_yahoo_finance package</a>/<a href=https://pypi.org/project/yfinance>yfinance package</a>
 
 <br>
 
@@ -83,8 +100,6 @@ Pair trading is the basic form of statistics arbitrage. It relies on the assumpt
 The core idea of pair trading is <a href=https://en.wikipedia.org/wiki/Cointegration>cointegration</a>. Metaphorically speaking, cointegration is like a couple in a clingy relationship where two parties are crazy-glued together. Yet, most relationships break sooner or later, and only the very few can make it to the marriage (from a statistics perspective, not being pessimistic). Hence, it is important to frequently check on the status quo of cointegration before any pair trading order execution (the same applies to relationships).
 
 *Click <a href=https://github.com/je-suis-tm/quant-trading/blob/master/Pair%20trading%20backtest.py>here</a> to be redirected to the script.*
-
-![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/pair%20trading%20eg%20two%20step.PNG)
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/pair%20trading%20positions.png)
 
@@ -120,7 +135,7 @@ For the strategy itself, we establish upper and lower thresholds prior to the hi
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/london%20breakout%20thresholds.png)
 
-### 5.Awesome oscillator
+### 5. Awesome oscillator
 
 Awesome oscillator is an upgraded version of MACD oscillator. It is one of those momentum strategies focusing on the game of moving average. Instead of taking simple moving average on close price, awesome moving average is derived from the mean of high and low price. Similar to MACD oscillator, it takes both short term and long term moving averages to construct the oscillator.
 
@@ -138,7 +153,7 @@ The rules of awesome oscillator could be found in <a href=https://www.tradingvie
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/awesome%20asset.png)
 
-### 6.Oil Money project
+### 6. Oil Money project
 
 This project is inspired by an <a href=https://www.bloomberg.com/news/articles/2018-05-20/crude-oil-s-surge-is-putting-the-petro-back-in-petrocurrencies>article</a> on oil-backed foreign exchange. Amid the bullish outlook for crude oil, the currency exchange of oil producing countries would also bounce back. Does this statement really hold? 
 
@@ -148,7 +163,7 @@ According to the article by Bloomberg (or many other similar research), research
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/Oil%20Money%20project/preview/oil%20production%20bubble%20map.png)
 
-### 7.Dual Thrust
+### 7. Dual Thrust
 
 If you search dual thrust on google, you will end up with results of rocket engine. Don't panic yet, you can rest assured that dual thrust strategy is nowhere near rocket science. It is just an opening range breakout strategy developed by the founder of Universal Technical Systems. The mathematics involved in this strategy is merely primary school level.
 
@@ -160,7 +175,7 @@ Rules of dual thrust can be found in <a href=https://www.quantconnect.com/tutori
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/dual%20thrust%20positions.png)
 
-### 8.Parabolic SAR
+### 8. Parabolic SAR
 
 Parabolic SAR is an indicator to identify stop and reverse of a trend. Usually, Parabolic SAR is presented as dotted line either above or below the price in charts. When the price is an uptrend, SAR curve would sit below the price. When the price is downtrend, SAR curve would rise above the price. Parabolic SAR is always considered as a symbol of resistance to the price momentum. When SAR curve and the price curve cross over, it is when trade orders are supposed to be executed. 
 
@@ -172,7 +187,7 @@ It is worth mentioning that SAR and RSI (which will be featured in a later chapt
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/parabolic%20sar%20positions.png)
 
-### 9.Bollinger Bands Pattern Recognition
+### 9. Bollinger Bands Pattern Recognition
 
 Bollinger Bands is a very simple but powerful indicator. There are three bands of this indicator. The mid band is the moving average on the price series (usually takes 20 lags). The upper and lower bands are two moving standard deviations away from the mid band. Bollinger Bands can be used to test for various types of strategies. 
 
@@ -206,7 +221,7 @@ For details of head-shoulder pattern, please refer to <a href=https://www.invest
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/rsi%20pattern%20oscillator.png)
 
-### 11.Monte Carlo project
+### 11. Monte Carlo project
 
 Monte Carlo, my first thought on these two words is the grand casino, where you meet Famke Janssen in tuxedo and introduce yourself, 'Bond, James Bond'. Indeed, the simulation is named after the infamous casino. It actually refers to the computer simulation of massive amount of random events. This unconventional mathematical method is extremely powerful in the study of stochastic process. 
 
@@ -216,7 +231,7 @@ Here comes the argument on Linkedin that caught my eyes the other day. "Stock pr
 
 ![alt text](https://raw.githubusercontent.com/je-suis-tm/quant-trading/master/Monte%20Carlo%20project/preview/ge%20simulation2.png)
 
-### 12.Options Straddle
+### 12. Options Straddle
 
 Here marks the debut of options strategy in this repository. Straddle refers to the shape of compasses in the payoff diagram of the strategy. A long straddle involves buying a call option and a put option at the same strike price, the same expiration date and preferably the same price. In reality, the same price is not always feasible (call options price higher implies higher upside risk, vice versa). It is recommended to trade when the price disparity between call and put options is converging.
 
@@ -228,7 +243,7 @@ The crucial element of options straddle is the selection of the strike price. As
 
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/options%20straddle%20payoff%20diagram.png)
 
-### 13.Portfolio Optimization project
+### 13. Portfolio Optimization project
 
 Modern portfolio theory was introduced in 1952 by Nobel laureate Harry Markowitz. It is part of investment class 101. But I watched a video by <a href=https://www.wolfram.com/training/videos/FIN015>Wolfram</a> recently. It challenged the traditional approach and introduced graph theory to asset diversification. There are plenty of quant shops deploying fancy mathematic tools to solve the market. The real question for us is, as fancy as it sounds, does graph theory work on portfolio optimization?
 
@@ -236,7 +251,7 @@ Modern portfolio theory was introduced in 1952 by Nobel laureate Harry Markowitz
 
 *This project is documented in the repository of <a href=https://github.com/je-suis-tm/graph-theory>Graph Theory</a>. For more details, please refer to the <a href=https://github.com/je-suis-tm/graph-theory/blob/master/Portfolio%20Optimization%20project/README.md>read me</a> page of a separate directory or <a href=https://je-suis-tm.github.io/graph-theory/portfolio-optimization>graph theory</a> section on my personal blog.*
 
-### 14.Smart Farmers project
+### 14. Smart Farmers project
 
 I know a lot of you have complained that this repository isn’t quantitative enough. You are yelling for the ultimate weapon of math destruction such as Poisson process or Jensen’s inequality. Well, the objective of quantitative trading is churning out more :euro: rather than deploying an elegant closed form equation. If you crave for intellectual challenge in mathematics, you are always welcome to check out my <a href=https://github.com/je-suis-tm/graph-theory>Graph Theory</a> repository. Nevertheless, I believe the birth of this project will meet your picky demand. Buon appetito :yum:
 
@@ -247,6 +262,14 @@ The project per se intends to leverage convex optimization to approximate farmer
 ![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/Smart%20Farmers%20project/preview/oil%20palm%20vs%20palm%20oil.png)
 
 *For more details, please refer to the <a href=https://github.com/je-suis-tm/quant-trading/tree/master/Smart%20Farmers%20project/README.md>read me page</a> of a separate directory or <a href=https://je-suis-tm.github.io/quant-trading/smart-farmers>quant trading section</a> on my personal blog.*
+
+### 15. VIX Calculator
+
+VIX is the fear gauge of S&P 500 index. By using <a href=https://www.mathopenref.com/calcriemann.html>Riemann sum</a> and <a href=https://www.emathhelp.net/notes/calculus-1/taylor-formula>Taylor series expansion</a>, we are able to convert a continuous fair price variance swap to a discrete options volatility index, which is called VIX. VIX is determined by two components, 3-week-ahead weekly S&P 500 options and one-month-ahead monthly S&P 500 options. It is de facto market anticipated volatility of S&P 500 index in 30 days. So far it has been applied to some stock exchange indices and some forex pairs. Since VIX is such a great risk management tool, why don’t we apply it to any asset with options contract? The objective of this script is to create a VIX calculator for any commodity options within any given length of forecast time horizon.
+
+![alt text](https://github.com/je-suis-tm/quant-trading/blob/master/preview/vix%20calculator.PNG)
+
+*Click <a href=https://github.com/je-suis-tm/quant-trading/blob/master/VIX%20Calculator.py>here</a> to be redirected to the script.*
 
 <br>
 
